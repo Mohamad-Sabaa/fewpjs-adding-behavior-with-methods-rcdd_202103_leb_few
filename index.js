@@ -28,3 +28,6 @@ class Bird {
     return this.sex === male ? `it's me ${this.name}, the parrot` : `${this.name} says squawk`
   }
 }
+
+bird = new Bird("Pablo", "male")
+bird2 = new Bird("Mable", "female")
